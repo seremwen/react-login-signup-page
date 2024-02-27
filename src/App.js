@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link,Routes } from 'react-router-dom';
 import Container from './components/Container';
 import Login from './components/Login';
 import Signup from './components/Signup'; // Assuming you have a Signup component
+import ForgotPassword from './components/ForgotPassword';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
           </Routes>
         </Container>
       </div>

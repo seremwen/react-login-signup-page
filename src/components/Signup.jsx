@@ -52,7 +52,7 @@ const Signup = () => {
                       
                         <footer className="footer footer-alt">
         <p className="text-muted">
-          Already have an account? <Link to="/" className="text-muted ml-1"><b>Login</b></Link>
+          Already have an account? <Link to="/" class="text-muted ml-1"><b>Login</b></Link>
         </p>
       </footer>
     </div>

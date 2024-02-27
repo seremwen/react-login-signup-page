@@ -13,7 +13,7 @@ const Login = () => {
                         <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email" />
                     </div>
                     <div class="form-group">
-                        <a href="pages-recoverpw-2.html" class="text-muted float-right"><small>Forgot your password?</small></a>
+                        <Link to="/forgot-password"  class="text-muted float-right"><small>Forgot your password?</small></Link>
                         <label for="password">Password</label>
                         <input class="form-control" type="password" required="" id="password" placeholder="Enter your password" />
                     </div>

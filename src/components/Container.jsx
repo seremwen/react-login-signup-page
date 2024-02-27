@@ -18,12 +18,12 @@ const Container = ({ children }) => {
   
         <div className="auth-fluid-right text-center">
           <div className="auth-user-testimonial">
-            <h2 className="mb-3">I love the color</h2>
+            <h2 className="mb-3">Welcome  TO SEREMWE ACADEMY</h2>
             <p className="lead">
-              <i className="mdi mdi-format-quote-open"></i> It's an elegant template. I love it very much! .{' '}
+              <i className="mdi mdi-format-quote-open"></i> ONLINE LEARNING PLATFORM .{' '}
               <i className="mdi mdi-format-quote-close"></i>
             </p>
-            <p>- Hyper Admin User</p>
+            <p>- SEREMWE Admin User</p>
           </div>
         </div>
       </div>
